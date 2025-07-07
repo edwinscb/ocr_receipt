@@ -23,3 +23,5 @@ Se prioriza la comunicación eficiente entre el frontend y el backend, la robust
 - **Procesamiento OCR con Tesseract:** Utiliza `Pytesseract` para la extracción de texto, lo que permite una integración rápida y eficaz.
 - **Validación y Manejo de Errores:** Implementación de lógica para gestionar escenarios como imágenes ilegibles, archivos no soportados o resultados de OCR vacíos.
 - **Preprocesamiento Básico de Imágenes:** Posibilidad de incluir pasos de preprocesamiento para mejorar la calidad del OCR.
+
+npm run dev
