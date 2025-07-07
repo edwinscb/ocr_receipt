@@ -25,3 +25,4 @@ Se prioriza la comunicación eficiente entre el frontend y el backend, la robust
 - **Preprocesamiento Básico de Imágenes:** Posibilidad de incluir pasos de preprocesamiento para mejorar la calidad del OCR.
 
 npm run dev
+uvicorn main:app --reload
