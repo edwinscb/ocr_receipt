@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 
-const API_BASE_URL = "https://ocr-receipt-0bw6.onrender.com";
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 const ReceiptProcessor: React.FC = () => {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [extractedText, setExtractedText] = useState<string | null>(null);
