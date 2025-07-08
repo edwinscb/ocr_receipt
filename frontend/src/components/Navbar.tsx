@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
                 <button 
                     type="button" 
                     className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-blue-800 focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-4 py-2 text-center">
-                        Procesar JPG/PNG
+                     Cargar JPG/PNG
                 </button>
                 <button 
                     type="button" onClick={toggleMenu} aria-expanded={isMenuOpen} data-collapse-toggle="navbar-sticky" aria-controls="navbar-sticky" 
@@ -46,9 +46,9 @@ const Navbar: React.FC = () => {
                 </li>
                 <li>
                     <a 
-                        href="#" className={`block py-2 px-3 rounded-sm md:p-0 ${activeLink === 'Procesar' ? 'text-white bg-blue-700 md:text-blue-500 md:bg-transparent' : 'text-gray-400 hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:hover:text-blue-500'}`}
-                        onClick={() => handleLinkClick('Procesar')}
-                            >Procesar
+                        href="#receipt" className={`block py-2 px-3 rounded-sm md:p-0 ${activeLink === 'Ejemplo' ? 'text-white bg-blue-700 md:text-blue-500 md:bg-transparent' : 'text-gray-400 hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:hover:text-blue-500'}`}
+                        onClick={() => handleLinkClick('Ejemplo')}
+                            >Ejemplo
                     </a>
                 </li>
                 <li>

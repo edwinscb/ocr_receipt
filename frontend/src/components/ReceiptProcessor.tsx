@@ -87,7 +87,7 @@ const ReceiptProcessor: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-800 text-white flex flex-col items-center justify-center p-4 pt-20">
+    <div className="w-full bg-gray-800 text-white flex flex-col items-center justify-center pt-30 pb-5">
       <div className="bg-gray-900 p-8 rounded-lg shadow-xl w-full max-w-2xl">
         <h2 className="text-4xl font-bold text-center mb-8 text-blue-400">Procesador de Recibos OCR</h2>
 

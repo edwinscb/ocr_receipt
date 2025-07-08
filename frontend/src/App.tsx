@@ -2,6 +2,7 @@ import './App.css'
 
 import Navbar from './components/Navbar';
 import ReceiptProcessor from './components/ReceiptProcessor';
+import ReceiptExample from './components/ReceiptExample';
 import Footer from './components/Footer';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <main >
         <ReceiptProcessor />
+        <ReceiptExample />
       </main>
       <Footer />
     </div>
