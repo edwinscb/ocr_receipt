@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 const ReceiptProcessor: React.FC = () => {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [extractedText, setExtractedText] = useState<string | null>(null);
@@ -65,7 +66,7 @@ const ReceiptProcessor: React.FC = () => {
     formData.append('file', selectedFile);
 
     try {
-      const response = await fetch('/upload-ocr', { 
+      const response = await fetch(`${API_BASE_URL}/upload-ocr`, { 
         method: 'POST',
         body: formData,
       });
